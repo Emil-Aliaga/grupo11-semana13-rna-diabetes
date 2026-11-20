@@ -10,7 +10,7 @@ BASE = Path(__file__).resolve().parent
 
 @st.cache_resource
 def cargar_modelo():
-    model = keras.models.load_model(str(BASE / "modelo_rna.keras"))
+    model = keras.models.load_model(str(BASE / "modelo_rna.keras"), compile=False)
     scaler = joblib.load(BASE / "scaler.pkl")
     meta = json.loads((BASE / "metadata_modelo.json").read_text(encoding="utf-8"))
     return model, scaler, meta
