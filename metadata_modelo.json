@@ -1,0 +1,24 @@
+{
+  "features": [
+    "Edad",
+    "Genero",
+    "Poliuria",
+    "Polidipsia",
+    "Perdida_repentina_peso",
+    "Debilidad",
+    "Polifagia",
+    "Candidiasis_genital",
+    "Vision_borrosa",
+    "Picazon",
+    "Irritabilidad",
+    "Cicatrizacion_lenta",
+    "Paresia_parcial",
+    "Rigidez_muscular",
+    "Alopecia",
+    "Obesidad"
+  ],
+  "target_negativo": 0,
+  "target_positivo": 1,
+  "threshold": 0.5,
+  "warning": "Uso académico; no validación clínica externa"
+}
